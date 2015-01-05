@@ -1,0 +1,907 @@
+
+
+/* Resets
+--------------------------------------------------------------------------------*/
+
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, 
+fieldset, input {
+	margin: 0;
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* General Styling
+--------------------------------------------------------------------------------*/
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: #8e8e8e;
+	min-height: 100%;
+	background-color: #f9f9f9;
+}
+
+.splash-page {
+	background-color: #ffffff;
+}
+
+.bg-wrapper {
+	background-color: #ffffff;
+}
+
+h2 {
+	font-family: 'Alice', sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #484848;
+	padding: .3em 0;
+}
+
+p,
+div.paragraph {
+	padding: .5em 0;
+}
+
+hr.styled-hr {
+	background-color: #d0d0d0;
+}
+
+#wrapper blockquote {
+	border-left: 5px solid #d0d0d0;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+#header {
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 25px;
+}
+
+#sitename a,
+#sitename a:link,
+#sitename a:visited {
+	color: #484848;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	background: url('red_icons.png') -9999px -9999px no-repeat;
+}
+
+a:link, a:visited {
+	color: #f64c3f;
+}
+
+a:hover {
+	color: #fe8c83;
+}
+
+#content-wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+.wsite-form-container {
+	margin-top: 0 !important;
+}
+
+/* MY BANNER */
+
+#mini_banner {
+	font-family: 'Ubuntu';
+    width: 100%;
+	font-size: 36px;
+	margin: 0 auto;
+	color: #ffffff;
+	display: inline;
+    clear: both;
+}
+
+#mini_celebration {
+	font-family: 'Neoretrodraw';
+    width: 100%;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+/* top row: "Javier and Livia" */
+#text-container {
+	width: 100%;
+	float: left;
+	position: relative;
+	transform: translateY(-10%);	
+}
+
+#names-container {
+	width: 100%;
+	float: left;
+	
+}
+
+#left_big_banner {
+	color: #ffffff;
+	font-family: 'Stoke';
+	font-size: 57px;
+	width: 210px;
+	float: left;
+	
+}
+
+#mid_banner {
+	color: #ffffff;
+	font-family: 'Neoretrodraw';
+	font-size: 70px;
+	width: 75px;
+	float: left;
+	position: relative;
+	transform: translateY(-10%);
+}
+
+#right_big_banner {
+	color: #ffffff;
+	font-size: 57px;
+	font-family: 'Stoke';
+    float: left;
+	width: 140px;
+}
+
+/* Location info */
+#location_text {
+	color: #ffffff;
+	font-family: 'Ubuntu';
+	font-weight: 400;
+	width: 100%;
+	font-size: 30px;
+	padding: 0px 0px 30px 0px;
+	position: relative;
+	transform: translateY(-5%);
+	}
+
+#location-info {
+	float: left;
+}
+
+#banner-container {
+	display: table-cell;
+	vertical-align: middle;
+    width: 300px;
+}
+
+/* Style and stuff
+--------------------*/
+
+.css_button {
+	font-size: 30px;
+	font-family: Ubuntu;
+	font-weight: light;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 100px;
+	border: 2px solid #ffffff;
+    cursor: pointer;
+	color: #ffffff;
+    display: inline-block;
+    background-color: #454545;
+}
+
+.css_button:hover {
+    background-color: #AB92A5;
+}
+
+.css_button:active {
+    position:relative;
+    top: 1px;
+}
+
+/* Buttons
+--------------------------------------------------------------------------------*/
+
+.wsite-button,
+.wsite-button .wsite-button-inner {
+	color: white;
+	background-image: none !important;
+	background-color: #454545;
+}
+
+/*
+.wsite-button .wsite-button-inner {
+	background-color: inherit;
+} */
+
+.wsite-button-highlight {
+	background-color: #454545;
+}
+
+.wsite-button-highlight:hover {
+	background-color: #cc3333;
+}
+
+.wsite-button-highlight:active {
+	background-color: #e64337;
+}
+
+.wsite-button-normal {
+	background-color: #484848;
+}
+
+.wsite-button-normal:hover {
+	background-color: #616161;
+}
+
+.wsite-button-normal:active {
+	background-color: #303030;
+}
+
+
+
+/* Footer
+--------------------------------------------------------------------------------*/
+
+.bg-wrapper {
+	padding-bottom: 100px;
+}
+
+#footer {
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+#footer-content {
+	width: 960px;
+	margin: auto;
+}
+
+#footer h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.weebly-footer {
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+/* Nav and Menus
+--------------------------------------------------------------------------------*/
+
+#navigation {
+	padding-bottom: 40px;
+	width: 960px;
+	margin: auto;
+	text-align: center;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+}
+
+#navigation ul:before, #navigation ul:after {
+    background-color: #d0d0d0;
+    content: "";
+    display: inline-block;
+    height: 1px;
+	bottom: .1em;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#navigation ul:before {
+    right: 29px;
+    margin-left: -50%;
+}
+
+#navigation ul:after {
+    left: 29px;
+    margin-right: -50%;
+}
+
+#navigation li {
+	display: inline-block;
+	padding: 10px 14px;
+}
+
+#navigation li:hover,
+#navigation li#active {
+	background-color: #f6f6f6;
+	color: #484848;
+}
+
+#navigation a:link, #navigation a:visited {
+	color: inherit;
+}
+
+#navigation a:hover {
+}
+
+#wsite-menus .wsite-menu li a {
+	background-color: #f6f6f6;
+	border: none;
+	color: #484848;
+}
+
+#wsite-menus .wsite-menu li a:hover {
+	background-color: #e8e8e8;
+	color: #484848;
+}
+
+
+
+
+
+/* Image
+--------------------------------------------------------------------------------*/
+
+.galleryCaptionHover .galleryCaptionHolder {
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	-webkit-backface-visibility: hidden;
+}
+
+.partialImageGalleryCaption.galleryCaptionHolder {
+	height: auto;
+}
+
+.galleryCaptionHover.galleryImageHolder:hover .galleryCaptionHolder {
+	opacity: 1;
+}
+
+.galleryCaptionHolderInner {
+	display: table;
+	height: 100%;
+}
+
+.galleryCaptionInnerTextHolder {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.wslide-caption {
+	height: 100%;
+	text-align: center;
+	font-size: 0;
+	opacity: 0 !important;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	-webkit-backface-visibility: hidden;
+}
+
+.wslide-slide-inner1:hover .wslide-caption {
+	opacity: 1 !important;
+}
+
+.wslide-caption:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.wslide-caption-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+#content-wrapper #content .galleryImageBorder {
+	border-color: #d0d0d0;
+}
+
+#content-wrapper #content .wsite-image-border-hairline a img,
+#content-wrapper #content .wsite-image-border-thin a img,
+#content-wrapper #content .wsite-image-border-medium a img,
+#content-wrapper #content .wsite-image-border-thick a img {
+	border-color: #d0d0d0;
+}
+
+/* Banner
+--------------------------------------------------------------------------------*/
+
+.banner-wrap {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+
+#banner {
+	width: 400px;
+	height: 100%;
+	margin: auto;
+	display: table;
+}
+
+#banner-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.banner-wrap a {
+	color: #cdcdcd;
+}
+
+.banner-wrap a:hover {
+	text-decoration: underline;
+}
+
+.banner-wrap .button-wrap div {
+	text-align: center !important;
+}
+
+.banner-wrap .wsite-button-inner {
+	font-family: 'Open sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#banner h2 {
+	font-size: 55px;
+	color: white;
+	font-weight: bold;
+}
+
+#banner p {
+	font-size: 20px;
+	padding-top: 26px;
+	padding-bottom: 45px;
+	color: white;
+}
+
+/* Page type: Landing page  %%HEADERIMG%%
+--------------------------------------------------------------------------------*/
+
+.landing-page .banner-wrap {
+	background-image: url(redFlowers.jpg);
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+
+/* Micro clearfix, courtesy of http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+/* Story page */
+
+
+
+/* Page type: Splash page
+--------------------------------------------------------------------------------*/
+
+.splash-page, .filler {
+	height: 100%;
+}
+
+.splash-page .banner-wrap {
+	background-image: url(splash_header.jpg);
+	height: 100%
+}
+
+.splash-page #banner {
+	min-height: 794px;
+}
+
+.splash-page #wrapper {
+	height: 100%;
+	width: 100%;
+	border-spacing: 0;
+}
+
+.splash-page #wrapper td {
+	padding: 0;
+}
+
+.spacer {
+	height: 194px;
+}
+
+/* Page type: Tall Header page
+--------------------------------------------------------------------------------*/
+
+.tall-header .banner-wrap {
+	background-image: url(tall_header.jpg);
+	height: 403px;
+	margin-bottom: 20px;
+}
+
+/* Page type: Short Header page
+--------------------------------------------------------------------------------*/
+
+.short-header .banner-wrap {
+	background-image: url(short_header.jpg);
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+/* Product Element
+--------------------------------------------------------------------------------*/
+
+.wsite-product {
+	border: 1px solid #d0d0d0;
+	border-radius: 2px;
+	background: inherit;
+	box-shadow: none;
+}
+
+.wsite-product .wsite-product-title {
+	font-family: 'Alice', sans-serif;
+	color: white;
+	font-size: 26px;
+}
+
+.wsite-product-image {
+	border: 1px solid #d0d0d0;
+	border-radius: 0;
+}
+
+/* Form inputs
+--------------------------------------------------------------------------------*/
+
+.wsite-input, .wsite-form-input, select {
+	border: solid 1px #d0d0d0;
+	border-radius: 2px;
+	margin: 8px 0;
+	outline: none;
+	background-image: none;
+	height: 27px;
+	font-size: 13px;
+}
+
+.wsite-form-phone-separator {
+	margin: 8px 0;
+}
+
+.wsite-form-label {
+	font-weight: normal;
+}
+
+select {
+	font-family: 'Open sans', sans-serif;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-indent: .01px;
+	text-overflow: '';
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: url('downarrow.png') no-repeat 99% 9px;
+	background-color: white;
+	height: 27px;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+#wsite-com-checkout-payment-info select {
+	background: none;
+}
+
+.wsite-form-field input[type='checkbox']:checked,
+.wsite-form-field input[type='checkbox']:not(:checked),
+.wsite-form-field input[type='radio']:checked,
+.wsite-form-field input[type='radio']:not(:checked),
+.wsite-com-product-option input[type='radio']:checked,
+.wsite-com-product-option input[type='radio']:not(:checked) {
+	display: none;
+}
+
+.wsite-form-field input[type='checkbox']:checked + label:before,
+.wsite-form-field input[type='checkbox']:not(:checked) + label:before,
+.wsite-form-field input[type='radio']:checked + label:before,
+.wsite-form-field input[type='radio']:not(:checked) + label:before,
+.wsite-com-product-option-label input[type='radio']:checked + span:before,
+.wsite-com-product-option-label input[type='radio']:not(:checked) + span:before {
+	content: '';
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.wsite-form-field input[type='checkbox']:not(:checked) + label:before {
+	background: url('default_icons.png') -714px -35px;
+}
+
+.wsite-form-field input[type='checkbox']:checked + label:before {
+	background: url('red_icons.png') -722px -32px;
+}
+
+.wsite-form-field input[type='radio']:not(:checked) + label:before,
+.wsite-com-product-option-label input[type='radio']:not(:checked) + span:before {
+	background: url('default_icons.png') -663px -35px;
+}
+
+.wsite-form-field input[type='radio']:checked + label:before,
+.wsite-com-product-option-label input[type='radio']:checked + span:before {
+	background: url('red_icons.png') -671px -32px;
+}
+
+
+/* sheet-specific style */
+.wrapper {
+	margin: 10px auto;
+}
+
+#intro {
+	text-align: center;
+}
+
+#timeline {
+	padding: 20px;
+	text-align: center;
+}
+
+#info-wrapper {
+	width: 600px;
+	height: 400px;
+	background: #ffffff;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+#left-col {
+	margin: auto;
+	width: 480px;
+	height: 380px;
+	text-align: center;
+	background: #ffffff;
+}
+
+#right-text {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 480px;
+	background:#ffffff;
+	height: auto;
+}
+
+/* TIMELINE formatting*/
+#timeline-wrapper {
+	width: 761px;
+	height: 130px;
+	margin: 0px auto;
+	position: relative;
+	top: 0px;
+}
+
+#decade-wrapper {
+	width: 741px;
+	margin: 10px auto 10px auto;	
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+#year-wrapper {
+	margin: 10px 0px 0px 5px;
+	position: absolute;
+	top: 60px;
+	left: 5px;
+}
+
+.decade {
+	margin: 10px 0px;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	width: 180px;
+	display: inline-block;
+	background-color: #cccccc;
+	font-family: Verdana, serif;
+	color: #000000;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+.year, .space{
+	margin: 0px -5px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	height: 30px;
+	width: 0px;
+	display: none;
+	color: #000000;
+}
+
+.spaceShow {
+	background-color: #cccccc;
+	display: inline-block;
+	float: left;
+	margin: 0px 0px;
+	margin: 0px 1px 0px 1px;
+}
+
+.yearShow {
+	background-color: #63193e;
+	display: inline-block;
+	float: left;
+	margin: 0px 1px 0px 1px;
+}
+
+.yearShow > p {
+	background-color: #63193e;
+	font-family: Verdana, serif;
+	color: #ffffff;
+	text-align: center;
+	padding: 0px;
+}
+
+.decadeSelected{
+	background-color: #999999;
+}
+
+.textDescription {
+	text-align: left;
+	display: none;
+}
+
+.textShow {
+	font-family: Verdana, serif;
+	color: #000000;
+	display: block;
+	position: relative;
+}
+
+.timelineImage {
+	display: none;
+}
+
+.imgShow {
+	display: block;
+	position: relative;
+}
+
+
+/* WEDDING PARTY PAGE */
+
+#party-content {
+	margin: auto;
+	height: 600px;
+}
+
+#party-text {
+	text-align: center;
+}
+
+#button-wrapper, #person-info-wrapper{
+	width: 600px;
+	margin: 10px auto;
+}
+
+#button-girls{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	margin: 10px 0px 10px 100px;
+}
+
+#button-boys{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	margin: 10px 0px 10px 100px;
+}
+
+#person-info-wrapper{
+}
+
+.bridesmaids-item, .groomsmen-item {
+	display: none;
+	height: 0px;
+	z-index: 0;
+}
+
+.party-list {
+	display: block;
+}
+
+.bridesmaids-item-show, .groomsmen-item-show {
+	margin-top: 10px;
+	display: block;
+	position: absolute;
+	background-color: #cccccc;
+}
+
+.sub-item {
+	display: none;
+}
+
+.sub-text {
+	font-size: 14px;
+	top: 40px;
+	left: 250px;
+	width: 270px;
+
+}
+
+.sub-img {
+	left: 0px;
+	top: 10px;
+	width: 230px;
+	height: 160px;
+}
+
+.sub-head {
+	left: 250px;
+	top: 10px;
+	font-size: 20px;
+	width: 270px;
+	color: #555555;
+}
+
+.sub-item-show {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 50%;
+	position: absolute;
+}
+
+.party-button {
+	background-color: #aaaaaa;
+	cursor: pointer;
+	text-align: center;
+	color: #ffffff;
+}
+
+.party-button > p {
+	position: relative;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.party-button-selected {
+	background-color: #63193e;
+}
+
+#party-text {
+	font-size: 30px;
+}
+
+
+
+
+
